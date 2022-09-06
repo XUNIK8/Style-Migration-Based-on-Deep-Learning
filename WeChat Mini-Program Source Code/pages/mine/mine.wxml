@@ -1,0 +1,53 @@
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell">
+    <view class="weui-cell__hd" style="position: relative;margin-right: 10px;">
+      <image src="{{userInfo.avatarUrl}}" style="width: 50px; height: 50px; display: block"/>   
+    </view>
+    <view class="weui-cell__bd">
+      <view>{{userInfo.nickName}}</view>
+    </view>
+  </view>
+</view>
+
+
+<view class="circle">
+  <button class="clear" open-type="contact">
+    <view class="weui-item border-shadow background-1">
+      <view class="weui-flex">
+        <view class="weui-flex__item">
+          <view class="weui-item__title">
+            历史记录
+          </view>
+          <view class="weui-item__desc">History</view>
+        </view>
+      </view>
+    </view>
+  </button>
+  <button class="clear" open-type="contact">
+  
+    <view class="weui-item border-shadow background-2">
+      <view class="weui-flex">
+        <view class="weui-flex__item">
+          <view class="weui-item__title">
+        
+            意见反馈
+          </view>
+          <view class="weui-item__desc">Feedback</view>
+        </view>
+
+      </view>
+    </view>
+  </button>
+  <button class="clear" open-type="contact">
+      <view class="weui-item border-shadow background-1">
+        <view class="weui-flex">
+          <view class="weui-flex__item">
+            <view class="weui-item__title">
+              关于我们
+            </view>
+            <view class="weui-item__desc">About</view>
+          </view>
+        </view>
+      </view>
+  </button>
+</view>

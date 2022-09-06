@@ -1,0 +1,13 @@
+<view>
+  <view class="title-container">
+    <text class="speName">镜前的少女</text>
+    <text class="fgName">毕加索</text>
+    <image src="/images/mirror.jpg" mode="aspectFit"></image>
+  </view>
+  <view class="content">
+    <text>色彩构成：红、黄、蓝</text>
+    <view class="hr"></view>
+    <text>《镜前的少女》也是耐人寻味的立体主义，但重在平面分解。女人的各个局部予以几何化，并规范成各种圆形：圆形有脸、镜子、乳房、臀部和圆形镜中的反映物，镜中镜外的圆形构成，成了富有装饰趣味的圆形图案，是形象极端自由性--线条和色彩自由组合的杰作。</text>
+    
+  </view>
+</view>

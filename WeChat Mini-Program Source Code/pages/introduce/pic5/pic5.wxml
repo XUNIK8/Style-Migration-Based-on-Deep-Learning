@@ -1,0 +1,13 @@
+<view>
+  <view class="title-container">
+    <text class="speName">Udnie</text>
+    <text class="fgName">弗朗西斯</text>
+    <image src="/images/udnie.jpg" mode="aspectFit"></image>
+  </view>
+  <view class="content">
+    <text>色彩构成：冷暖色调结合</text>
+    <view class="hr"></view>
+    <text>《Udnie》出自弗朗西斯之手，此时的他正从崇拜印象主义转为热衷立体主义。这幅画通过使用冷暖色调的结合，体现出一种挣扎与神秘的情感。这也正代表着他为一种事业而斗争，后来反对这种事业再去争取新事物的人格形象</text>
+    
+  </view>
+</view>

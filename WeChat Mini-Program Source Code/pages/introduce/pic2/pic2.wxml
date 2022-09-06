@@ -1,0 +1,13 @@
+<view>
+  <view class="title-container">
+    <text class="speName">画家和沉思的模特</text>
+    <text class="fgName">毕加索</text>
+    <image src="/images/la_muse.jpg" mode="aspectFit"></image>
+  </view>
+  <view class="content">
+    <text>色彩构成：黄、绿、蓝</text>
+    <view class="hr"></view>
+    <text>这是一副于20世界初，西班牙画家创作的一幅油画。在构图上，毕加索采用了黄金分割率对画面进行整体安排，并用抽象画的形式与偏冷色调的结合体现出模特沉思的沉重感，与画家的神态相得益彰</text>
+    
+  </view>
+</view>

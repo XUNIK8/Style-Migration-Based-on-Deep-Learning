@@ -1,0 +1,54 @@
+<van-notify id="van-notify"/>
+
+<view class='test'>
+    <swiper display-multiple-items='1' circular previous-margin='50px' next-margin='50px' bindchange='change' current='{{current}}'>
+      <block wx:for="{{list}}" wx:key="id" data-num ="{{item.num}}" >
+        <swiper-item>
+          <view class="box" data-index='{{index}}' animation="{{index == current?animationData:animationData2}}">
+            <image src='{{item.proUrl}}'></image>
+            <view  class="content{{index == current?'Max':'Min'}}"> 
+              <text >{{item.name}}</text>
+              <view wx:if="{{index == current}}" style="margin-bottom:5rpx;"><text  style="color:#1989FA;text-decoration:underline;font-size:16px;" bindtap="goToDescription{{item.num}}">{{text}}</text></view>
+            </view>
+            
+          </view>
+        </swiper-item>
+      </block>
+    </swiper>
+</view>
+
+<view class="totalChoose">
+  <text class="titleChoose">颜色保留</text>
+  <view class="valueChoose">
+    <text>10%</text>
+    <van-slider disabled="{{changeStyle}}" value="50" min="10" max="90" active-color="#ED7300" bind:change="changeColor" />
+    <text>90%</text>
+  </view>
+
+  <text class="titleChoose">风格占比</text>
+  <view class="valueChoose">
+    <text>10%</text>
+    <van-slider disabled="{{changeStyle}}" value="50" min="10" max="90" bind:change="styleChange" />
+    <text>90%</text>
+  </view>
+</view>
+<view class="chooseBtn">
+  <van-button round icon="add-o" disabled="{{changeStyle}}" type="primary" size="normal" class="upload" bindtap="chooseimg">选择照片</van-button>
+  <van-button round icon="exchange" disabled="{{changeStyle}}" type="info" size="normal"  class="upload" bindtap="generate">生成图片</van-button>
+</view>
+
+<view class="share" disabled="{{changeStyle}}" bindtap="gotoShare">
+  <text>点击分享</text>
+</view>
+
+<van-share-sheet
+  show="{{showShare}}"
+  title="立即分享给好友"
+  options="{{options}}"
+  bind:select="shareSelect"
+  bind:close="shareClose"
+/>
+
+
+<!-- <van-button round icon="add-o" type="primary" style="padding-bottom:20rpx;display: flex; align-items: center; justify-content: center;">上传照片</van-button>
+<van-button round icon="exchange" type="info" style="display: flex; align-items: center; justify-content: center;" >生成图片</van-button> -->

@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/main/main",
+    "pages/share/share",
+    "pages/mine/mine", 
+    "pages/ours/ours",
+    "pages/introduce/introduce", 
+    "pages/introduce/pic1/pic1", 
+    "pages/introduce/pic2/pic2", 
+    "pages/introduce/pic3/pic3", 
+    "pages/introduce/pic4/pic4", 
+    "pages/introduce/pic5/pic5", 
+    "pages/introduce/pic6/pic6"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1E407F",
+    "navigationBarTitleText": "AI画家",
+    "navigationBarTextStyle": "white"
+  },
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "van-notify": "@vant/weapp/notify/index",
+    "van-share-sheet": "@vant/weapp/share-sheet/index",
+    "van-slider": "@vant/weapp/slider/index"
+  },
+  "sitemapLocation": "sitemap.json"
+}

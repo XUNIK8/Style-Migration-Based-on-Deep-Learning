@@ -1,0 +1,13 @@
+<view>
+  <view class="title-container">
+    <text class="speName">拾穗者</text>
+    <text class="fgName">米勒</text>
+    <image src="/images/des_glaneuses.jpg" mode="aspectFit"></image>
+  </view>
+  <view class="content">
+    <text>色彩构成：红、黄、蓝</text>
+    <view class="hr"></view>
+    <text>画面整体使用了迷人的暖黄色调，红、蓝两块沉稳浓郁的色彩融于柔和的黄色调子中，使整个画面安静又庄重。前景中的安静和后景中紧张的劳动形成鲜明对比，同时又把前景同后景的劳动关系紧密联系起来，画面和谐，如同一曲交响乐。</text>
+    
+  </view>
+</view>

@@ -1,0 +1,28 @@
+<scroll-view scroll-y="true" style="width: 100%; height: 100%">
+	<view bindtouchend="touchEnd" bindtouchstart="touchStart" class="container">
+
+
+
+			<van-image round width="13rem" height="13rem" src="/images/2.png" style="margin-top:60rpx;" />
+
+		<van-row style="margin-top:60rpx;">
+			<van-col class="text2" bindtap="navigate1">风格迁移</van-col>
+		</van-row>
+		<van-row style="margin-top:80rpx;">
+			<van-col class="text2" bindtap="navigate2">风格周边</van-col>
+		</van-row>
+		<van-row style="margin-top:80rpx;">
+			<van-col class="text2" bindtap="navigate3">个人中心</van-col>
+		</van-row>
+
+		<image class="bottom-top {{ bottom_top }}" src="../../images/5.png"></image>
+		<image class="bottom-one {{ bottom_one }}" src="../../images/1.png"></image>
+		<image class="bottom-one2 {{ bottom_one }}" src="../../images/1.png"></image>
+		<image class="bottom-two {{ bottom_two }}" src="../../images/11.png"></image>
+		<image class="bottom-two2 {{ bottom_two }}" src="../../images/11.png"></image>
+		<image class="bottom-three {{ bottom_three }}" src="../../images/12.png"></image>
+		<image class="bottom-three2 {{ bottom_three }}" src="../../images/12.png"></image>
+		<image class="bottom-four {{ bottom_four }}" src="../../images/10.png"></image>
+		<image class="bottom-four2 {{ bottom_four }}" src="../../images/10.png"></image>
+	</view>
+</scroll-view>

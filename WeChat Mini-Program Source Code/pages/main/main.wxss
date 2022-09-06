@@ -1,0 +1,95 @@
+.test{
+  width: 100%;
+  height: 70vh;
+  box-sizing: border-box;
+}
+
+swiper{
+  height: 100%;
+}
+
+swiper-item{
+  text-align: center;
+}
+
+swiper-item image{
+  width: 100%;
+}
+
+.box{
+  width: 90%;
+  height:1200rpx;
+  display: inline-block;
+  margin-top: 40px;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px 5px #D0D0CF;
+  position:relative;
+  top:33%;
+  transform:translateY(-45%);
+}
+
+.contentMax{
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  color:#1E407F;
+  font-weight: bold;
+  padding: 70rpx 40rpx 85rpx 40rpx;
+}
+
+.contentMin{
+  display: flex;
+  flex-direction: column;
+  font-size: 19px;
+  color: #333;
+  padding: 70rpx 40rpx 85rpx 40rpx;
+} 
+
+
+.upload {
+  display: flex;
+  justify-content: center;
+  margin-top: 20rpx;
+}
+
+.chooseBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20rpx;
+}
+
+.totalChoose {
+  margin-top: -20rpx;
+}
+
+.valueChoose {
+  margin: 10rpx 20rpx 0rpx 20rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.valueChoose text {
+  flex: 1;
+}
+
+.valueChoose van-slider {
+  padding: 20rpx 25rpx 0 25rpx;
+  flex: 8;
+}
+
+.titleChoose {
+  margin: 20rpx 0 10rpx 20rpx;
+}
+
+.share {
+  display: flex;
+  margin-top: 10rpx;
+  justify-content: center;
+}
+
+.share text {
+  color: #1a0dab;
+  text-decoration: underline;
+}

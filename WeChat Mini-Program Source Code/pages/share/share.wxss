@@ -1,0 +1,17 @@
+/* pages/share/share.wxss */
+
+page {
+  background-color: #242728;
+}
+
+.imgStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.saveBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

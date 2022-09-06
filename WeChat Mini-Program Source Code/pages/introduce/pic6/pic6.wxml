@@ -1,0 +1,15 @@
+<view>
+  <view class="title-container">
+    <text class="speName">神奈川冲浪里</text>
+    <text class="fgName">葛饰北斋</text>
+    <image src="/images/wave_crop.jpg" mode="aspectFit"></image>
+  </view>
+  <view class="content">
+    <text>色彩构成：白、蓝、黄</text>
+    <view class="hr"></view>
+    <text>该画作描绘的是神奈川附近的海域汹涌澎湃的海浪，浪里有三条奋进的船只，英勇的船工们正为了生存而与大自然进行着惊险而激烈的搏斗，表达了人们乘风破浪、勇往直前的大无畏精神。它不是正面描绘富士山，而是选取了一个特别的角度，让人们透过翻卷的巨浪和海面上起伏的船只看到了白雪皑皑的富士山顶部，从而使富士山充满了平常情景下无法出现的特别魅力。
+
+</text>
+    
+  </view>
+</view>
